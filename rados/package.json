@@ -1,0 +1,16 @@
+{
+  "author": "bjzhang",
+  "bugs": {
+    "url": "github.com/ipbit/go-ceph"
+  },
+  "gx": {
+    "dvcsimport": "github.com/ceph/go-ceph/rados"
+  },
+  "gxVersion": "0.14.0",
+  "language": "go",
+  "license": "",
+  "name": "ceph-rados",
+  "releaseCmd": "git commit -a -m \"gx publish $VERSION\"",
+  "version": "0.0.1"
+}
+

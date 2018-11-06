@@ -1,6 +1,6 @@
 package rados
 
-// #cgo LDFLAGS: -lrados
+// #cgo LDFLAGS: -L${SRCDIR}/lib/x86_64-linux-gnu -lrados
 // #include <errno.h>
 // #include <stdlib.h>
 // #include <rados/librados.h>

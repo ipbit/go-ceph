@@ -1,6 +1,6 @@
 package rados
 
-// #cgo LDFLAGS: -lrados
+// #cgo LDFLAGS: -L${SRCDIR}/lib/x86_64-linux-gnu -lrados
 // #include <stdlib.h>
 // #include <rados/librados.h>
 import "C"
