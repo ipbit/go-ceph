@@ -1,0 +1,24 @@
+{
+  "author": "magik6k",
+  "bugs": {
+    "url": "https://github.com/gxed/go-ceph"
+  },
+  "gx": {
+    "dvcsimport": "github.com/ceph/go-ceph"
+  },
+  "gxDependencies": [
+    {
+      "author": "magik6k",
+      "hash": "QmPVkJMTeRC6iBByPWdrRkD3BE5UXsj5HPzb4kPqL186mS",
+      "name": "testify",
+      "version": "1.0.0"
+    }
+  ],
+  "gxVersion": "0.12.1",
+  "language": "go",
+  "license": "",
+  "name": "go-ceph",
+  "releaseCmd": "git commit -a -m \"gx publish $VERSION\"",
+  "version": "1.0.0"
+}
+
